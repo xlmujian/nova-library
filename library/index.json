@@ -22,6 +22,46 @@
       "card": "cards/daxia-xianzun.json",
       "featured": true,
       "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "fanren-hanli",
+      "name": "凡人修仙传·人界",
+      "tagline": "忘语｜玩家扮演韩立",
+      "summary": "七玄门、越国七派、魔道六宗、乱星海、大晋、灵界三皇七妖王。秋末赤水峰，韩立捡到小瓶。",
+      "author": "Nova",
+      "version": "1.0",
+      "tags": [
+        "凡人修仙传",
+        "韩立",
+        "修仙",
+        "世界观",
+        "扮演"
+      ],
+      "license": "同人",
+      "cover": "cards/fanren-cover.jpg",
+      "card": "cards/fanren-hanli.json",
+      "featured": true,
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "genshin-traveler",
+      "name": "原神·提瓦特",
+      "tagline": "HoYoverse｜玩家扮演旅行者",
+      "summary": "七国、七神、愚人众十一执行官、深渊、坎瑞亚、天空岛。坠星山谷湖边，旅行者钓起派蒙。",
+      "author": "Nova",
+      "version": "1.0",
+      "tags": [
+        "原神",
+        "提瓦特",
+        "旅行者",
+        "世界观",
+        "扮演"
+      ],
+      "license": "同人",
+      "cover": "cards/genshin-cover.jpg",
+      "card": "cards/genshin-traveler.json",
+      "featured": true,
+      "updatedAt": "2026-11-06"
     }
   ]
 }
