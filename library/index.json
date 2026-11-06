@@ -19,7 +19,7 @@
       ],
       "license": "内置卡",
       "cover": "cards/daxia-cover.jpg",
-      "card": "cards/daxia-xianzun.png",
+      "card": "cards/daxia-xianzun.json",
       "featured": true,
       "updatedAt": "2026-11-06"
     }
