@@ -9,6 +9,7 @@ library/
   index.json
   cards/
     daxia-cover.jpg
+    daxia-xianzun.json
     daxia-xianzun.png
 ```
 
@@ -39,7 +40,7 @@ library/
 ```
 
 - `id` 必须唯一，安装时用它找卡。
-- `cover` 是列表封面，建议 3:4 或 2:3，单张控制在 200KB 内。
+- `cover` 是列表封面，建议 3:4 或 2:3，单张控制在 200KB 内。卡文件是 `.json` 时，封面也会被复制成角色头像。
 - `card` 支持 `.png` 角色卡（chara/ccv3）或 `.json`。
 - `license` 写清楚授权；没有授权的卡不要放进公开仓库。
 
@@ -52,17 +53,20 @@ library/
 
 ## 从 GitHub 拉取
 
-把整个 `library/` 推到仓库后，在 `src/shared/library.ts` 里把：
+当前公共仓库：`https://github.com/xlmujian/nova-library`
 
-```ts
-export const LIBRARY_INDEX_URL = ''
-```
-
-改成 raw 地址，例如：
+`src/shared/library.ts` 现在指向 jsDelivr：
 
 ```ts
 export const LIBRARY_INDEX_URL =
-  'https://raw.githubusercontent.com/<owner>/<repo>/main/library/index.json'
+  'https://cdn.jsdelivr.net/gh/xlmujian/nova-library@main/library/index.json'
 ```
 
-重新构建后，页面会优先拉远程索引；拉不到时回退到随包内置的 `library/`。
+也可以换成 raw 地址；页面会优先拉远程索引，拉不到时回退到随包内置的 `library/`。
+
+```ts
+export const LIBRARY_INDEX_URL =
+  'https://raw.githubusercontent.com/xlmujian/nova-library/main/library/index.json'
+```
+
+重新构建后生效。
