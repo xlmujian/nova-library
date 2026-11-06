@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "name": "Nova 角色库",
+  "description": "Nova 自带与社区提交的角色卡。",
+  "updatedAt": "2026-11-06",
+  "cards": [
+    {
+      "id": "daxia-xianzun",
+      "name": "大爱仙尊·蛊界",
+      "tagline": "蛊真人世界卡｜玩家扮演古月方源",
+      "summary": "五域、天庭、长生天、影宗、十一位尊者。开窍大典开场，二十七步，丙等四成四。",
+      "author": "Nova",
+      "version": "1.0",
+      "tags": [
+        "蛊真人",
+        "大爱仙尊",
+        "世界观",
+        "扮演"
+      ],
+      "license": "内置卡",
+      "cover": "cards/daxia-cover.jpg",
+      "card": "cards/daxia-xianzun.png",
+      "featured": true,
+      "updatedAt": "2026-11-06"
+    }
+  ]
+}
